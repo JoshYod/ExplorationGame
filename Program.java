@@ -27,6 +27,8 @@ public class Program{
 			"""	);//EXPLORATION GAME
 
 		while(true){
+			
+			
 			break;
 		}//end while
 
