@@ -1,5 +1,3 @@
-//package Characters;
-
 class Dave implements NPC{
 
     private String name = "Dave";

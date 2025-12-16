@@ -1,5 +1,3 @@
-package Characters;
-
 interface NPC{
 
     String name = "";
