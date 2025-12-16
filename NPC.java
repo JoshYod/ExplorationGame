@@ -1,13 +1,12 @@
-
+package Characters;
 
 interface NPC{
 
-    protected String name;
-    protected String 
+    String name = "";
 
     public void run();
 
-    public String getDialoue();
+    public String getDialogue();
     public String getChoice();
 
-}//end NPC
+}//end interface
