@@ -26,17 +26,15 @@ class Dave extends NPC{
 		}//end if
 		else if(choice.equals("2")){
 			break;
-		}//end if
+		}//end elif
+		else{
+			runError("ENTER A VALID OPTION");
+		}//end else
 	}//end while
     }//end run
 
     public void startDialogue(){
         enterToContinue();
     }//end startDialogue
-
-    public String getChoice(){
-	System.out.print("Enter your choice: ");
-        return input.nextLine();
-    }//end getChoice
 
 }//end class
