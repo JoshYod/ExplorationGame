@@ -10,7 +10,7 @@ runDave: Dave.class
 Dave.class: Dave.java NPC.class
 	javac Dave.java
 
-NPC.class: NPC.java
+NPC.class: NPC.java Basics.class
 	javac NPC.java
 
 runBasics: Basics.class
@@ -29,4 +29,6 @@ save:
 
 cleanSave:
 	make clean
-	make save
+	git add *
+	git commit -a
+	git push origin main

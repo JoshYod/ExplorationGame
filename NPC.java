@@ -1,10 +1,11 @@
-interface NPC{
+abstract class NPC extends Basics{
 
     String name = "";
 
-    public void run();
+    abstract public void run();
 
-    public String startDialogue();
-    public String getChoice();
+    abstract public void startDialogue();
+    
+    abstract public String getChoice();
 
 }//end interface

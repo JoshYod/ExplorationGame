@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Dave implements NPC{
+class Dave extends NPC{
 
     private String name = "Dave";
     private Scanner input = new Scanner(System.in);
@@ -16,20 +16,23 @@ class Dave implements NPC{
         while(true){
 		System.out.println("-=-=-<Dave>-=-=-");
 		System.out.print("""
-1) Hello
-2) Bye
+1) Talk
+2) Leave
 """);
 
 		String choice = getChoice();
-		if(choice.equals("2")){
+		if(choice.equals("1")){
+			startDialogue();
+		}//end if
+		else if(choice.equals("2")){
 			break;
 		}//end if
 	}//end while
     }//end run
 
-    public String getDialogue(){
-        return "Dave";
-    }//end getDialogue
+    public void startDialogue(){
+        enterToContinue();
+    }//end startDialogue
 
     public String getChoice(){
 	System.out.print("Enter your choice: ");
