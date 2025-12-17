@@ -4,6 +4,7 @@ abstract class NPC extends Basics{
 
     private Scanner input = new Scanner(System.in);	
     String name = "";
+    boolean discovered = false;
 
     abstract public void run();
 
