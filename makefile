@@ -26,3 +26,7 @@ save:
 	git add *
 	git commit *
 	git push origin main
+
+cleanSave:
+	make clean
+	make save
