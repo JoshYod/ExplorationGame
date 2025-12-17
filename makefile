@@ -1,7 +1,7 @@
-run:	Program
+run:	Program.class
 	java Program
 
-Program: Program.java
+Program.class: Program.java
 	javac Program.java
 
 runDave: Dave.class
@@ -12,6 +12,12 @@ Dave.class: Dave.java NPC.class
 
 NPC.class: NPC.java
 	javac NPC.java
+
+runBasics: Basics.class
+	java Basics
+
+Basics.class: Basics.java
+	javac Basics.java
 
 clean:
 	rm *.class

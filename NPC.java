@@ -4,7 +4,7 @@ interface NPC{
 
     public void run();
 
-    public String getDialogue();
+    public String startDialogue();
     public String getChoice();
 
 }//end interface
