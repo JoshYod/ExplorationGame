@@ -1,6 +1,7 @@
 import java.util.*;
+import java.io.Serializable;
 
-abstract class NPC extends Basics{
+abstract class NPC extends Basics implements Serializable{
 
     String name = "";
     boolean discovered = false;
