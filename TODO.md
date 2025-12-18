@@ -1,5 +1,5 @@
 # Exploration Game
-## To-Do
+## To-Do for pre-release 2
 * Make game saveable
 * Make save slots (Probably 3)
 * Make directories for files so it isn't so clutterd
