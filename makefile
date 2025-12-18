@@ -10,7 +10,7 @@ runDavesHouse: DavesHouse.class
 runDave: Dave.class
 	java Dave
 
-DavesHouse.class: DavesHouse.java Area.class
+DavesHouse.class: DavesHouse.java Area.class Dave.class
 	javac DavesHouse.java
 
 Dave.class: Dave.java NPC.class

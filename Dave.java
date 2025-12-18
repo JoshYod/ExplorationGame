@@ -27,11 +27,11 @@ class Dave extends NPC{
 			break;
 		}//end if
 		else if(choice.equals("1")){
-			System.out.println("This is my house... what are you doing here?");
+			runDialogue("This is my house... what are you doing here?");
 			enterToContinue();
 		}//end elif
 		else if(choice.equals("2")){
-			System.out.println("I could be asking you the same question.");
+			runDialogue("I could be asking you the same question.");
 			enterToContinue();
 		}//end elif
 		else{

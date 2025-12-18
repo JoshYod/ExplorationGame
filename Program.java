@@ -28,7 +28,7 @@ public class Program extends Basics{
 
 		while(true){
 			System.out.println("""
-					=========================
+					=====MAIN MENU=====
 					1. Begin
 					2. Test
 					0. Quit

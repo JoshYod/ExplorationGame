@@ -12,8 +12,7 @@ public class Basics{
 
 	public static void main(String[] args){
 		Basics basics = new Basics();
-		basics.enterToContinue();
-		basics.runError("This is a test error message");
+		basics.testMethods();
 	}//end main
 
 	protected void enterToContinue(){
@@ -33,8 +32,26 @@ public class Basics{
 		return input.nextLine();
 	}//end getChoice
 
-	public String runDialogue(String text){
-		return text;
+	public void runDialogue(String text){
+		System.out.println(GREEN + text + RESET);
 	}//end runDialogue
+
+	private void testMethods(){
+		System.out.print("Do you want to test Basics methods? (Y)");
+		String choice = input.nextLine();
+		if(choice.equals("Y")){
+			System.out.println("\nenterToContinue:");
+			enterToContinue();
+			System.out.println("\nrunError:");
+			runError("This is a Test");
+			System.out.print("\ngetChoice:\n");
+			String testChoice = getChoice();
+			System.out.println("Returned: " + testChoice);
+			System.out.println("\nrunDialogue:");
+			runDialogue("This is a test");
+			System.out.println("\nEnd of Test");
+		}//end if
+	}//end testMethods
+
 
 }//end class
