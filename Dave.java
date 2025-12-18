@@ -14,7 +14,7 @@ class Dave extends NPC{
 
     public void run(){
         while(true){
-		System.out.println("-=-=-<Dave>-=-=-");
+		System.out.println("-=-=-<" + name +">-=-=-");
 		System.out.print("""
 			1. Talk
 			0. Leave
