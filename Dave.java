@@ -34,7 +34,11 @@ class Dave extends NPC{
     }//end run
 
     public void startDialogue(){
-        enterToContinue();
+        while(true){
+		System.out.println("------------------------------");
+		
+		break;
+	}//end while
     }//end startDialogue
 
 }//end class

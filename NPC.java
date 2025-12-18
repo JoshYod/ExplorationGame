@@ -10,9 +10,9 @@ abstract class NPC extends Basics{
 
     abstract public void startDialogue();
     
-    public String getChoice(){
+/*    public String getChoice(){
 	    System.out.print("Enter your choice: ");
 	    return input.nextLine();
     }//end getChoice
-
+*/
 }//end abstract
