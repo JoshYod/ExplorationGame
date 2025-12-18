@@ -2,15 +2,16 @@ import java.util.*;
 
 class Dave extends NPC{
 
-    private String name = "Dave";
-    private Scanner input = new Scanner(System.in);
-
-
     public static void main(String[] args){
         System.out.println("Dave");
 	Dave dave = new Dave();
 	dave.run();
     }//end main
+
+    Dave(){
+	name = "Dave";
+    }//end constructor
+
 
     public void startDialogue(){
         while(true){
