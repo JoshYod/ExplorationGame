@@ -1,7 +1,7 @@
-run:	Program.class
+run: Program.class
 	java Program
 
-Program.class: Program.java
+Program.class: Program.java DavesHouse.class
 	javac Program.java
 
 runDavesHouse: DavesHouse.class

@@ -6,6 +6,7 @@ abstract class NPC extends Basics{
     boolean discovered = false;
 
     public void run(){
+	System.out.println();
 	while(true){
 		System.out.println("-=-=-" + name + "-=-=-");
 		System.out.print("""

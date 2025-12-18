@@ -15,6 +15,7 @@ class DavesHouse extends Area{
 			System.out.println("-===-<" + name + ">-===-");
 			System.out.print("""
 					1. Talk to Dave
+					0. QUIT
 					"""
 					);
 			String choice = getChoice();
@@ -22,7 +23,7 @@ class DavesHouse extends Area{
 				Dave dave = new Dave();
 				dave.run();
 			}//end if
-			else if(choice.equals("q")){
+			else if(choice.equals("0")){
 				break;
 			}//end elif
 			else{
