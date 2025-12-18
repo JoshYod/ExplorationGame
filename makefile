@@ -10,6 +10,12 @@ runDavesHouse: DavesHouse.class
 runDave: Dave.class
 	java Dave
 
+runPlayer: Player.class
+	java Player
+
+Player.class: Player.java Basics.class
+	javac Player.java
+
 DavesHouse.class: DavesHouse.java Area.class Dave.class
 	javac DavesHouse.java
 
