@@ -1,6 +1,7 @@
 //Basics.java
 
-import java.util.*;
+import java.util.Scanner;
+import java.io.Serializable;
 
 public class Basics{
 	
