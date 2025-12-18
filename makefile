@@ -4,11 +4,20 @@ run:	Program.class
 Program.class: Program.java
 	javac Program.java
 
+runDavesHouse: DavesHouse.class
+	java DavesHouse
+
 runDave: Dave.class
 	java Dave
 
+DavesHouse.class: DavesHouse.java Area.class
+	javac DavesHouse.java
+
 Dave.class: Dave.java NPC.class
 	javac Dave.java
+
+Area.class: Area.java Basics.class
+	javac Area.java
 
 NPC.class: NPC.java Basics.class
 	javac NPC.java

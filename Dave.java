@@ -11,7 +11,7 @@ class Dave extends NPC{
 	Dave dave = new Dave();
 	dave.run();
     }//end main
-
+/*
     public void run(){
         while(true){
 		System.out.println("-=-=-<" + name +">-=-=-");
@@ -33,7 +33,7 @@ class Dave extends NPC{
 		}//end else
 	}//end while
     }//end run
-
+*/
     public void startDialogue(){
         while(true){
 		System.out.println("""
