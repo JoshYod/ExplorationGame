@@ -53,6 +53,5 @@ public class Basics{
 			System.out.println("\nEnd of Test");
 		}//end if
 	}//end testMethods
-
-
+	
 }//end class
