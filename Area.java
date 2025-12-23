@@ -11,8 +11,35 @@ abstract class Area extends Basics{
 
 	boolean discovered = false;
 
-	public void run();
+	abstract public void run();
 
-	abstract void displayOptions(){}//end displayOptions
+	abstract void displayOptions(){
+		while(true){
+			System.out.println("-===-<" + name + ">-===-");
+			System.out.print("""
+					1. Travel
+					2. Interact with NPCs
+					3. View Inventory
+					0. QUIT
+					"""
+					);
+			String choice = getChoice();
+			switch (choice) {
+				case "1" -> {
+
+				}//end case
+				case "2" -> {
+
+				}//end case
+				case "3" -> {
+
+				}//end case
+				case "0" -> {
+					
+				}//end case
+				default -> runError("ENTER A VALID OPTION");
+			}//end switch
+		}//end while
+	}//end displayOptions
 
 }//end Area
